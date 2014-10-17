@@ -1,0 +1,17 @@
+<h1>OAuth Token Generator<h1>
+	
+	<%= form_for :oauth do |f| %>
+	  <p>
+	    <%= f.label :clientKey %><br>
+	    <%= f.text_field :title %>
+	  </p>
+ 
+	  <p>
+	    <%= f.label :secretKey %><br>
+	    <%= f.text_area :text %>
+	  </p>
+ 
+	  <p>
+	    <%= f.submit %>
+	  </p>
+	<% end %>
